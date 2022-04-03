@@ -11,4 +11,7 @@ The program provided here allows one to capture the shape evolution of closed me
 This program employs a C<sup>1</sup> conforming finite element to discretize the nonlinear equations and uses the standard Newton's method to solve the problem. The time-consuming step in Newton's method is solving the linear system J(x<sub>i</sub>) &Delta;x = R(x<sub>i</sub>), when the Jacobian matrix is not sparse, which is the case here due to the penalty and regularization terms in the energy functional of open lipid membranes. To overcome this issue, we use the [Sherman-Morrison formula](https://en.wikipedia.org/wiki/Sherman%E2%80%93Morrison_formula).
 
 
+## Publication
+https://doi.org/10.1016/j.cma.2021.114472
+
 
